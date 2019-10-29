@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -17,12 +21,23 @@ body {
     background-color: rgb(255, 207, 51);
 }
 
-.css-logo img {
+.css-logo > #css {
     width: 45px;
     display: block;
     margin: auto;
     padding-top: 4px;
     cursor: pointer;
+}
+
+.css-logo > #html {
+    width: 65px;
+    display: block;
+    margin: auto;
+    padding-top: 4px;
+    cursor: pointer;
+    margin-top: -1.5px;
+    display: none;
+    margin-left: 67px;
 }
 
 .footer .line {
@@ -38,13 +53,16 @@ body {
 .footer-icon {
     margin-top: -50px;
     cursor: pointer;
+    width: 40px;
+    height: 30px;
+    margin-left: 468px;
 }
 .menu-icon {
   width: 30px;
   height: 3px;
   background-color: rgb(255, 255, 255);
-  margin: 5px 0;
-  margin-left: 475px;
+  margin: 5px 5px;
+  /*margin-left: 475px;*/
 }
 
 .rotate-one {
@@ -164,9 +182,6 @@ span.portfolio {
 }
 
 
-
-
-
 #h, #t, #m, #l, #c, #s, #s1 {
     width: 50px;
     position: fixed;
@@ -176,10 +191,12 @@ span.portfolio {
 
 #h {
     margin-left: 150px;
+    margin-top: 284px;
 }
 
 #t {
     margin-left: 220px;
+    margin-top: 292px;
 }
 
 #m {
@@ -193,23 +210,32 @@ span.portfolio {
 #c {
     margin-left: 150px;
     margin-top: 280px;
+    width: 70px;
 }
 
 #s {
-    margin-left: 250px;
+    margin-left: 215px;
     margin-top: 280px;
+    width: 110px;
 }
 
 #s1 {
-    margin-left: 350px;
+    margin-left: 300px;
     margin-top: 280px;
+    width: 110px;
 }
 
-.works {
+.works, .contact, .about {
     width: 788px;
     height: 650px;
     background-color: rgb(255, 255, 255);
     float: right;
+}
+
+
+
+.about, .contact {
+    display: none;
 }
 
 .second-footer {
@@ -221,7 +247,7 @@ span.portfolio {
 
 .my-works {
    background-color: rgb(255, 207, 51);
-   width: 260px;
+   width: 150px;
    margin-left: 20px;
    text-align: center;
    height: 45px;
@@ -229,26 +255,60 @@ span.portfolio {
 }
 
 .my-works > h2 {
-    padding-top: 5px;
+    padding: 9px 1px;
     margin-top: 0;
+    font-size: 18px;
+    font-weight: 100;
 }
 
-.works > h1{
-   margin-left: 35px;
-   font-size: 36px;
+.contact > h1, .about > h1, .works > h1{
+   margin-left: 40px;
+   font-size: 28px;
    cursor: pointer;
-   margin-top: 15px;
+   margin-top: 120px;
 }
 
-.works > h4 {
+.about > h2 {
+   margin-left: 40px;
+   font-size: 26px;
+   font-weight: 100;
+}
+
+.about > p {  
+    font-size: 17px;
+    font-weight: 600;
+    margin-left: 40px;
+ }
+
+ span.light-text {
+    font-size: 16px;
+    font-weight: 100;
+ }
+
+.about > h4 {  
+    font-size: 26px;
+ }
+
+ .about > h5 {  
+    font-size: 18px;
+    margin-left: 40px;
+    width: 90%;
+ }
+
+.contact > h4, .about > h4 {
     padding-top: 20px;
-    margin-left: 35px;
+    margin-left: 40px;
     line-height: 0;
 }
 
-.works > .horizontal-line {
+.about > ul {
+    margin-left: 18px;
+    line-height: 28px;
+}
+
+.contact > .horizontal-line, .about > .horizontal-line, .works > .horizontal-line {
     width: 55%;
-    margin-left: 38px;
+    margin-left: 43px;
     height: 3px;
     background-color: rgb(255, 207, 51);
     margin-top: -5px;
@@ -261,6 +321,14 @@ span.portfolio {
     position: absolute;
     opacity: 0.7;
     margin-top: -2px;
+}
+
+.squars {
+    width: 150px;
+    height: 150px;
+    border: 2px solid brown;
+    float: left;
+    margin: 5px;
 }
 
 
@@ -305,9 +373,64 @@ span.portfolio {
  }
 
 
+#template {
+    width: 320px;
+    height: 190px;
+    margin-left: 40px;
+    background-image: url("template.png");
+    background-size: 173%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 4px dotted black;
+    margin-top: 10px;
+    float: left;
+    cursor: pointer;
+}
 
+#quiz {
+    width: 320px;
+    height: 190px;
+    background-image: url("quiz.png");
+    background-size: 173%; 
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 4px dotted black;
+    margin-left: 420px;
+    margin-top: 10px;
+    position: absolute;
+    cursor: pointer;
+}
 
+#game {
+    width: 320px;
+    height: 190px;
+    margin-left: 40px;
+    background-image: url("game1.png");
+    background-size: 185%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 4px dotted black;
+    margin-top: 250px;
+    cursor: pointer;
+}
 
+#template:hover {
+    width: 330px;
+    height: 195px;
+    margin-left: 35px;
+}
+
+#quiz:hover {
+    width: 330px;
+    height: 195px;
+    margin-left: 415px;
+}
+
+#game:hover {
+    width: 330px;
+    height: 195px;
+    margin-left: 35px;
+}
 
 
 
@@ -317,4 +440,3 @@ span.portfolio {
     height: 200px;
     background-color: blue;
 }
-
