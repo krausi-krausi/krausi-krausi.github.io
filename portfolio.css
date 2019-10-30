@@ -90,7 +90,7 @@ body {
 .main-page {
     width: 100%;
     height: 658px;
-    background-image: url("images/piano.jpg");
+    background-image: url("portfolio-images/piano.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
     background-position-y: bottom;
@@ -154,7 +154,7 @@ span.portfolio {
 .left-background1 {
     width: 524px;
     height: 658px;
-    background-image: url("images/ds.jpg");
+    background-image: url("portfolio-images/ds.jpg");
     position: fixed;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -377,7 +377,7 @@ span.portfolio {
     width: 320px;
     height: 190px;
     margin-left: 40px;
-    background-image: url("images/template.png");
+    background-image: url("portfolio-images/template.png");
     background-size: 173%; 
     background-position: center;
     background-repeat: no-repeat;
@@ -390,7 +390,7 @@ span.portfolio {
 #quiz {
     width: 320px;
     height: 190px;
-    background-image: url("images/quiz.png");
+    background-image: url("portfolio-images/quiz.png");
     background-size: 173%; 
     background-repeat: no-repeat;
     background-position: center;
@@ -405,7 +405,7 @@ span.portfolio {
     width: 320px;
     height: 190px;
     margin-left: 40px;
-    background-image: url("images/game1.png");
+    background-image: url("portfolio-images/game1.png");
     background-size: 185%; 
     background-position: center;
     background-repeat: no-repeat;
@@ -419,7 +419,7 @@ span.portfolio {
     height: 190px;
     margin-left: 420px;
     margin-top: -198px;
-    background-image: url("images/website.png");
+    background-image: url("portfolio-images/website.png");
     background-size: 185%; 
     background-position: center;
     background-repeat: no-repeat;
