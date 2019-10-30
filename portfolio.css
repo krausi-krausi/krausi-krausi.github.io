@@ -414,6 +414,20 @@ span.portfolio {
     cursor: pointer;
 }
 
+#website {
+    width: 320px;
+    height: 190px;
+    margin-left: 420px;
+    margin-top: -198px;
+    background-image: url("images/website.png");
+    background-size: 185%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 4px dotted black;
+    cursor: pointer;
+    position: absolute;
+}
+
 #template:hover {
     width: 330px;
     height: 195px;
