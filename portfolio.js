@@ -88,3 +88,7 @@ $('#template').click(function(){
  $('#game').click(function(){
     window.location.href='My Game.html';
  });
+
+$('#website').click(function(){
+    window.location.href='website.html';
+ });
