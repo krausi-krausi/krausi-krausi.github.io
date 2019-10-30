@@ -1,0 +1,720 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans";
+    background-color: rgb(240, 240, 240);
+}
+
+h1,h2,h3,h4,h5,h6 {font-family: "Oswald"}
+
+
+footer {
+    width: 100%;;
+    height: 35px;
+    background-color: black;
+}
+
+h1.head {
+    text-align: center;
+    margin-top: 60px;
+    font-size: 2.5em;
+}
+
+p.head {
+    text-align: center;
+    font-size: 0.8em;
+    margin-top: -15px;
+}
+
+p.head span{
+    background-color: black;
+    color: white;
+    padding: 3px 5px;
+}
+
+div.image {
+    width: 100%;
+    
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+div.image img {
+    width: 100%;
+    
+}
+
+h2.image-text {
+    
+    color: rgb(141, 47, 47);
+    margin-top: 27%;
+    position: absolute;
+    margin-left: 2%;
+    font-size: 4vw; 
+}
+
+h1.image-text {
+    
+    color: rgb(151, 51, 51);
+    position: absolute;
+    margin-top: 32%;
+    margin-left: 2%;
+    font-size: 6vw;
+}
+
+.image-button {
+    
+    color: rgb(148, 53, 53);
+    position: absolute;
+    margin-left: 2%;
+    padding: 12px 12px;
+    font-size: 1.5vw;
+    cursor: pointer;
+    opacity: 0.6;
+    margin-top: 42%;
+}
+
+div.main {
+    width: 100%;
+}
+
+/*პირველი სექცია*/
+section.one {
+    width: 62.8%;
+    height: auto;
+    margin-left: 2.3%;
+    background-color: white;
+    margin-top: 1.5%;
+    
+}
+
+section.one p.heading {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 1.5em;
+    padding-top: 2.5%;
+}
+
+section.one p.description {
+    text-align: center;
+    margin-top: -5px;
+}
+
+section.one span {
+    color: rgb(88, 88, 88);
+}
+
+section.one img {
+    width: 95%;
+    margin: auto;
+    display: block;
+}
+
+section.one p.text {
+    width: 95%;
+    display: block;
+    margin: auto;
+}
+
+section.one button.like {
+    margin-left: 2.5%;
+    border: 1px solid black;
+    background-color: white;
+    padding: 7px 15px;
+    cursor: pointer;
+}
+
+section.one button.like:hover {
+    background-color: rgb(207, 203, 203);
+    border: none;
+    padding: 8px 16px;
+}
+
+section.one button.replies {
+    float: right;
+    background-color: rgb(0, 0, 0);
+    padding: 8px 18px;
+    margin-right: 2.5%;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+section.one button.replies:hover {
+    background-color: rgb(207, 203, 203);
+    color: black;
+}
+
+section.one #hidden1 {
+    width: 95%;
+    margin: auto;
+    padding-bottom: 2%;
+    display: none;
+}
+
+section.one #hidden1 img {
+    width: 10%;
+    margin-left: 0;
+    float: left;
+}
+
+section.one #hidden1 hr {
+    border: 0.5px solid rgb(224, 222, 222);
+}
+
+
+
+/*მეორე სექცია*/
+section.two {
+    width: 62.8%;
+    height: auto;
+    margin-left: 2.3%;
+    background-color: white;
+}
+
+section.two p.heading {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 1.5em;
+    padding-top: 2.5%;
+}
+
+section.two p.description {
+    text-align: center;
+    margin-top: -5px;
+}
+
+section.two span {
+    color: rgb(88, 88, 88);
+}
+
+section.two img {
+    width: 95%;
+    margin: auto;
+    display: block;
+}
+
+section.two p.text {
+    width: 95%;
+    display: block;
+    margin: auto;
+}
+
+section.two button.like {
+    margin-left: 2.5%;
+    border: 1px solid black;
+    background-color: white;
+    padding: 7px 15px;
+    cursor: pointer;
+}
+
+section.two button.like:hover {
+    background-color: rgb(207, 203, 203);
+    border: none;
+    padding: 8px 16px;
+}
+
+section.two button.replies {
+    float: right;
+    background-color: rgb(0, 0, 0);
+    padding: 8px 18px;
+    margin-right: 2.5%;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+section.two button.replies:hover {
+    background-color: rgb(207, 203, 203);
+    color: black;
+}
+
+section.two #hidden2 {
+    width: 95%;
+    margin: auto;
+    display: none;
+    padding-bottom: 2%;
+}
+
+section.two #hidden2 img {
+    width: 10%;
+    margin-left: 0;
+    float: left;
+}
+
+section.two #hidden2 hr {
+    border: 0.5px solid rgb(224, 222, 222);
+}
+
+
+
+
+/*მესამე სექცია*/
+section.three {
+    width: 62.8%;
+    height: auto;
+    margin-left: 2.3%;
+    background-color: white;
+}
+
+section.three p.heading {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 1.5em;
+    padding-top: 2.5%;
+}
+
+section.three p.description {
+    text-align: center;
+    margin-top: -5px;
+
+}
+
+section.three span {
+    color: rgb(88, 88, 88);
+}
+
+section.three img {
+    width: 95%;
+    margin: auto;
+    display: block;
+}
+
+section.three p.text {
+    width: 95%;
+    display: block;
+    margin: auto;
+}
+
+section.three button.like {
+    margin-left: 2.5%;
+    border: 1px solid black;
+    background-color: white;
+    padding: 7px 15px;
+    cursor: pointer;
+}
+
+section.three button.like:hover {
+    background-color: rgb(207, 203, 203);
+    border: none;
+    padding: 8px 16px;
+}
+
+section.three button.replies {
+    float: right;
+    background-color: rgb(0, 0, 0);
+    padding: 8px 18px;
+    margin-right: 2.5%;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+section.three button.replies:hover {
+    background-color: rgb(207, 203, 203);
+    color: black;
+}
+
+section.three #hidden3 {
+    width: 95%;
+    margin: auto;
+    display: none;
+    padding-bottom: 2%;
+}
+
+section.three #hidden3 img {
+    width: 10%;
+    margin-left: 0;
+    float: left;
+}
+
+section.three #hidden3 hr {
+    border: 0.5px solid rgb(224, 222, 222);
+}
+
+
+
+section.four {
+    width: 30%;
+    background-color: black;
+    height: auto;
+    margin-left: 67.5%;
+    margin-top: -205%;
+}
+
+section.four img {
+    width: 100%;
+}
+
+section.four h3 {
+    color: white;
+    padding-left: 5%;
+    font-size: 25px;
+    
+    
+}
+
+section.four p {
+    color: white;
+    padding-left: 5%;
+    width: 90%;
+    font-size: 18px;
+    padding-bottom: 3%;
+}
+
+
+section.five {
+    margin-left: 67.5%;
+    color: white;
+    width: 30%;
+    height: auto;
+}
+section.five .text {
+    background-color: black;
+}
+
+section.five p {
+    padding: 3% 5%;
+    font-size: 24px;
+}
+
+section.five div {
+    width: 100%;
+    height: auto;
+}
+
+
+
+section.six {
+    margin-left: 67.5%;
+    color: white;
+    width: 30%;
+    height: auto;
+    background-color: white;
+    
+}
+
+section.six div:hover {
+    background-color: rgb(212, 211, 211);
+}
+
+section.six img {
+    width: 12%;
+    padding-top: 1.7%;
+    padding-left: 3%;
+}
+
+section.six hr {
+    border: 0.5px solid rgb(221, 219, 219);
+}
+
+section.seven {
+    margin-left: 67.5%;
+    color: white;
+    width: 30%;
+    height: auto;
+}
+
+section.seven .text {
+    background-color: black;
+}
+
+section.seven p {
+    padding: 3% 5%;
+    font-size: 24px;
+}
+
+section.seven div {
+    width: 100%;
+    height: auto;
+}
+
+section.eight {
+    width:28%;
+    height: auto;
+    background-color: rgb(218, 214, 214);
+    margin-left: 67.5%;
+    border: 15px solid rgb(255, 255, 255);
+}
+
+section.eight p {
+    text-align: center;
+    padding: 15%;
+}
+
+
+section.nine {
+    margin-left: 67.5%;
+    color: white;
+    width: 30%;
+    height: auto;
+}
+
+section.nine .text {
+    background-color: black;
+}
+
+section.nine p {
+    padding: 3% 5%;
+    font-size: 24px;
+}
+
+section.nine div {
+    width: 100%;
+    height: auto;
+}
+
+section.ten {
+    width:30%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    margin-left: 67.5%;
+    margin-top: -2%
+}
+
+section.ten p {
+    text-align: center;
+    padding: 10%;
+}
+
+section.gallery {
+    width: 30%;
+    margin-left: 67.5%;
+    height: auto;
+    background-color: white;
+    
+}
+
+
+section.gallery img {
+      width: 45%;
+      
+      padding-top: 3%;
+      padding-left: 3%;
+}
+
+section.subscribe {
+    margin-left: 67.5%;
+    width: 30%;
+    height: auto;
+    background-color: white;
+}
+
+section.subscribe p {
+    padding: 4% 5%;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+}
+
+section.subscribe span {
+    padding: 3% 5%;
+}
+
+section.subscribe input {
+    width: 90%;
+    margin-left: 5%;
+    height: 30px;
+}
+
+section.subscribe button {
+    width: 90%;
+    height: 35px;
+    margin-left: 5%;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(219, 46, 46);
+    color: white;
+    font-size: 20px;
+    margin-top: 4%;
+}
+
+section.subscribe button:hover {
+    background-color: rgb(175, 171, 171);
+}
+
+
+
+@media screen and (max-width: 768px) {
+    
+    section.one {
+        width: 90%;
+        margin-left:5%;
+    }
+
+    section.two {
+        width: 90%;
+        margin-left:5%;
+    }
+
+    section.three {
+        width: 90%;
+        margin-left:5%;
+    }
+
+    section.four {
+        width: 90%;
+        margin-top: 40px;
+        margin-left:5%;    
+    }
+
+    section.five {
+        width: 90%;
+        margin-left:5%;    
+    }
+
+    section.six {
+        width: 90%;
+        margin-left:5%;    
+    }
+
+    section.seven {
+        width: 90%;
+        margin-left:5%;    
+    }
+
+    section.eight {
+        width: 86%;
+        margin-left:5%;    
+    }
+
+    section.nine {
+        width: 90%;
+        margin-left:5%;    
+    }
+
+    section.ten {
+        width: 90%;
+        margin-left:5%;    
+    }
+
+    section.gallery {
+        width: 90%;
+        margin-left:5%;    
+    }
+
+    section.subscribe {
+        width: 90%;
+        margin-left:5%;    
+        margin-top: 40px;      
+    }
+}
+
+@media screen and (max-width: 480px) {
+        section.eight {
+            width: 82%;
+        }
+
+        footer {
+            display: none;
+        }
+}
+
+
+.open-window {
+    width: 70%;
+    height: 250px;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    margin-left: 15%;
+    margin-top: -110px;
+    position: fixed;
+    display: none;
+}
+
+
+.open-window h1 {
+    margin-left: 5%;
+    letter-spacing: 4;
+    
+}
+
+.open-window p {
+    margin-left: 5%;
+}
+
+.open-window input {
+    margin-left: 5%;
+    width: 90%;
+    height: 30px;
+}
+
+.open-window button {
+    margin-left: 5%;
+    width: 90.5%;
+    padding: 14px;
+    border: none;
+    background-color: rgba(230, 27, 27, 0.774);
+    color: white;
+    cursor: pointer;
+}
+
+.open-window button:hover {
+    background-color: grey;
+    color: black;
+}
+
+.open-window h4 {
+    margin-left: 95%;
+    position: absolute;
+    cursor: pointer;
+    padding: 5px 10px;
+    margin-top: 1%;
+}
+
+
+.open-window h4:hover {
+    background-color: gray;
+}
+
+
+@media screen and (max-width: 480px) {
+    .open-window {
+        width: 70%;
+        margin-left: 15%;
+        border: 1px solid black;
+        text-align: center;
+    } 
+    
+        .open-window h4 {
+            margin-left: 90%;    
+        }  
+
+        .open-window button {
+            width: 70%;
+            margin-left: 0;
+        }
+        .open-window p {
+            width: 85%;
+            margin-top: -5%;
+        }
+
+        .open-window input {
+            width: 70%;
+            margin-left: 0;
+        }
+}
+
+
+.below-section {
+    width: 100%;
+    height: 165px;
+    background-color: grey;
+    margin-top: 750px;
+}
+
+.below-section button {
+    margin: 40px;
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 10px 25px;
+    cursor: pointer;
+    font-size: 1.3vw;
+}
+
+.below-section button:hover {
+    background-color: rgb(209, 205, 205);
+    color: black;  
+}
