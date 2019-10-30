@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-image: url("background.jpg");
+    background-image: url("game-images/background.jpg");
     background-size: 100%;
     background-repeat: repeat-y;
 }
@@ -28,7 +28,7 @@ body {
         height: 90px;
         margin-left: 91%;
         position: absolute;
-        background-image: url('step-two.png');
+        background-image: url('game-images/step-two.png');
         background-size: 70%;
         background-repeat: no-repeat;
     }
@@ -48,7 +48,7 @@ body {
     }
     
     .bg2 {
-      background-image: url('step-one.png');
+      background-image: url('game-images/step-one.png');
       background-size: 70%;
       background-repeat: no-repeat;
     }
