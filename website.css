@@ -1,720 +1,460 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     padding: 0;
-    font-family: "Open Sans";
-    background-color: rgb(240, 240, 240);
 }
 
-h1,h2,h3,h4,h5,h6 {font-family: "Oswald"}
-
-
-footer {
-    width: 100%;;
-    height: 35px;
-    background-color: black;
+.footer {
+    width: 524px;
+    height: 70px;
+    background-color: rgb(27, 27, 27);
+    position: fixed;
+    margin-top: -658px;
 }
 
-h1.head {
-    text-align: center;
-    margin-top: 60px;
-    font-size: 2.5em;
+.css-logo {
+    width: 38%;
+    height: 100%;
+    background-color: rgb(255, 207, 51);
 }
 
-p.head {
-    text-align: center;
-    font-size: 0.8em;
-    margin-top: -15px;
-}
-
-p.head span{
-    background-color: black;
-    color: white;
-    padding: 3px 5px;
-}
-
-div.image {
-    width: 100%;
-    
-    height: auto;
-    background-repeat: no-repeat;
-    background-size: 100%;
-}
-
-div.image img {
-    width: 100%;
-    
-}
-
-h2.image-text {
-    
-    color: rgb(141, 47, 47);
-    margin-top: 27%;
-    position: absolute;
-    margin-left: 2%;
-    font-size: 4vw; 
-}
-
-h1.image-text {
-    
-    color: rgb(151, 51, 51);
-    position: absolute;
-    margin-top: 32%;
-    margin-left: 2%;
-    font-size: 6vw;
-}
-
-.image-button {
-    
-    color: rgb(148, 53, 53);
-    position: absolute;
-    margin-left: 2%;
-    padding: 12px 12px;
-    font-size: 1.5vw;
-    cursor: pointer;
-    opacity: 0.6;
-    margin-top: 42%;
-}
-
-div.main {
-    width: 100%;
-}
-
-/*პირველი სექცია*/
-section.one {
-    width: 62.8%;
-    height: auto;
-    margin-left: 2.3%;
-    background-color: white;
-    margin-top: 1.5%;
-    
-}
-
-section.one p.heading {
-    color: rgb(0, 0, 0);
-    text-align: center;
-    font-size: 1.5em;
-    padding-top: 2.5%;
-}
-
-section.one p.description {
-    text-align: center;
-    margin-top: -5px;
-}
-
-section.one span {
-    color: rgb(88, 88, 88);
-}
-
-section.one img {
-    width: 95%;
-    margin: auto;
-    display: block;
-}
-
-section.one p.text {
-    width: 95%;
+.css-logo > #css {
+    width: 45px;
     display: block;
     margin: auto;
-}
-
-section.one button.like {
-    margin-left: 2.5%;
-    border: 1px solid black;
-    background-color: white;
-    padding: 7px 15px;
+    padding-top: 4px;
     cursor: pointer;
 }
 
-section.one button.like:hover {
-    background-color: rgb(207, 203, 203);
-    border: none;
-    padding: 8px 16px;
-}
-
-section.one button.replies {
-    float: right;
-    background-color: rgb(0, 0, 0);
-    padding: 8px 18px;
-    margin-right: 2.5%;
-    color: white;
-    border: none;
-    cursor: pointer;
-}
-
-section.one button.replies:hover {
-    background-color: rgb(207, 203, 203);
-    color: black;
-}
-
-section.one #hidden1 {
-    width: 95%;
+.css-logo > #html {
+    width: 65px;
+    display: block;
     margin: auto;
-    padding-bottom: 2%;
+    padding-top: 4px;
+    cursor: pointer;
+    margin-top: -1.5px;
     display: none;
+    margin-left: 67px;
 }
 
-section.one #hidden1 img {
-    width: 10%;
-    margin-left: 0;
-    float: left;
+.footer .line {
+    width: 1.5px;
+    height: 50px;
+    background-color: rgb(85, 83, 83);
+    position: absolute;
+    margin-left: 454px;
+    margin-top: -60px;
+    opacity: 0.7;
 }
 
-section.one #hidden1 hr {
-    border: 0.5px solid rgb(224, 222, 222);
-}
-
-
-
-/*მეორე სექცია*/
-section.two {
-    width: 62.8%;
-    height: auto;
-    margin-left: 2.3%;
-    background-color: white;
-}
-
-section.two p.heading {
-    color: rgb(0, 0, 0);
-    text-align: center;
-    font-size: 1.5em;
-    padding-top: 2.5%;
-}
-
-section.two p.description {
-    text-align: center;
-    margin-top: -5px;
-}
-
-section.two span {
-    color: rgb(88, 88, 88);
-}
-
-section.two img {
-    width: 95%;
-    margin: auto;
-    display: block;
-}
-
-section.two p.text {
-    width: 95%;
-    display: block;
-    margin: auto;
-}
-
-section.two button.like {
-    margin-left: 2.5%;
-    border: 1px solid black;
-    background-color: white;
-    padding: 7px 15px;
+.footer-icon {
+    margin-top: -50px;
     cursor: pointer;
-}
-
-section.two button.like:hover {
-    background-color: rgb(207, 203, 203);
-    border: none;
-    padding: 8px 16px;
-}
-
-section.two button.replies {
-    float: right;
-    background-color: rgb(0, 0, 0);
-    padding: 8px 18px;
-    margin-right: 2.5%;
-    color: white;
-    border: none;
-    cursor: pointer;
-}
-
-section.two button.replies:hover {
-    background-color: rgb(207, 203, 203);
-    color: black;
-}
-
-section.two #hidden2 {
-    width: 95%;
-    margin: auto;
-    display: none;
-    padding-bottom: 2%;
-}
-
-section.two #hidden2 img {
-    width: 10%;
-    margin-left: 0;
-    float: left;
-}
-
-section.two #hidden2 hr {
-    border: 0.5px solid rgb(224, 222, 222);
-}
-
-
-
-
-/*მესამე სექცია*/
-section.three {
-    width: 62.8%;
-    height: auto;
-    margin-left: 2.3%;
-    background-color: white;
-}
-
-section.three p.heading {
-    color: rgb(0, 0, 0);
-    text-align: center;
-    font-size: 1.5em;
-    padding-top: 2.5%;
-}
-
-section.three p.description {
-    text-align: center;
-    margin-top: -5px;
-
-}
-
-section.three span {
-    color: rgb(88, 88, 88);
-}
-
-section.three img {
-    width: 95%;
-    margin: auto;
-    display: block;
-}
-
-section.three p.text {
-    width: 95%;
-    display: block;
-    margin: auto;
-}
-
-section.three button.like {
-    margin-left: 2.5%;
-    border: 1px solid black;
-    background-color: white;
-    padding: 7px 15px;
-    cursor: pointer;
-}
-
-section.three button.like:hover {
-    background-color: rgb(207, 203, 203);
-    border: none;
-    padding: 8px 16px;
-}
-
-section.three button.replies {
-    float: right;
-    background-color: rgb(0, 0, 0);
-    padding: 8px 18px;
-    margin-right: 2.5%;
-    color: white;
-    border: none;
-    cursor: pointer;
-}
-
-section.three button.replies:hover {
-    background-color: rgb(207, 203, 203);
-    color: black;
-}
-
-section.three #hidden3 {
-    width: 95%;
-    margin: auto;
-    display: none;
-    padding-bottom: 2%;
-}
-
-section.three #hidden3 img {
-    width: 10%;
-    margin-left: 0;
-    float: left;
-}
-
-section.three #hidden3 hr {
-    border: 0.5px solid rgb(224, 222, 222);
-}
-
-
-
-section.four {
-    width: 30%;
-    background-color: black;
-    height: auto;
-    margin-left: 67.5%;
-    margin-top: -205%;
-}
-
-section.four img {
-    width: 100%;
-}
-
-section.four h3 {
-    color: white;
-    padding-left: 5%;
-    font-size: 25px;
-    
-    
-}
-
-section.four p {
-    color: white;
-    padding-left: 5%;
-    width: 90%;
-    font-size: 18px;
-    padding-bottom: 3%;
-}
-
-
-section.five {
-    margin-left: 67.5%;
-    color: white;
-    width: 30%;
-    height: auto;
-}
-section.five .text {
-    background-color: black;
-}
-
-section.five p {
-    padding: 3% 5%;
-    font-size: 24px;
-}
-
-section.five div {
-    width: 100%;
-    height: auto;
-}
-
-
-
-section.six {
-    margin-left: 67.5%;
-    color: white;
-    width: 30%;
-    height: auto;
-    background-color: white;
-    
-}
-
-section.six div:hover {
-    background-color: rgb(212, 211, 211);
-}
-
-section.six img {
-    width: 12%;
-    padding-top: 1.7%;
-    padding-left: 3%;
-}
-
-section.six hr {
-    border: 0.5px solid rgb(221, 219, 219);
-}
-
-section.seven {
-    margin-left: 67.5%;
-    color: white;
-    width: 30%;
-    height: auto;
-}
-
-section.seven .text {
-    background-color: black;
-}
-
-section.seven p {
-    padding: 3% 5%;
-    font-size: 24px;
-}
-
-section.seven div {
-    width: 100%;
-    height: auto;
-}
-
-section.eight {
-    width:28%;
-    height: auto;
-    background-color: rgb(218, 214, 214);
-    margin-left: 67.5%;
-    border: 15px solid rgb(255, 255, 255);
-}
-
-section.eight p {
-    text-align: center;
-    padding: 15%;
-}
-
-
-section.nine {
-    margin-left: 67.5%;
-    color: white;
-    width: 30%;
-    height: auto;
-}
-
-section.nine .text {
-    background-color: black;
-}
-
-section.nine p {
-    padding: 3% 5%;
-    font-size: 24px;
-}
-
-section.nine div {
-    width: 100%;
-    height: auto;
-}
-
-section.ten {
-    width:30%;
-    height: auto;
-    background-color: rgb(255, 255, 255);
-    margin-left: 67.5%;
-    margin-top: -2%
-}
-
-section.ten p {
-    text-align: center;
-    padding: 10%;
-}
-
-section.gallery {
-    width: 30%;
-    margin-left: 67.5%;
-    height: auto;
-    background-color: white;
-    
-}
-
-
-section.gallery img {
-      width: 45%;
-      
-      padding-top: 3%;
-      padding-left: 3%;
-}
-
-section.subscribe {
-    margin-left: 67.5%;
-    width: 30%;
-    height: auto;
-    background-color: white;
-}
-
-section.subscribe p {
-    padding: 4% 5%;
-    background-color: black;
-    color: white;
-    font-size: 25px;
-}
-
-section.subscribe span {
-    padding: 3% 5%;
-}
-
-section.subscribe input {
-    width: 90%;
-    margin-left: 5%;
+    width: 40px;
     height: 30px;
+    margin-left: 468px;
+}
+.menu-icon {
+  width: 30px;
+  height: 3px;
+  background-color: rgb(255, 255, 255);
+  margin: 5px 5px;
+  /*margin-left: 475px;*/
 }
 
-section.subscribe button {
-    width: 90%;
-    height: 35px;
-    margin-left: 5%;
-    border: none;
-    cursor: pointer;
-    background-color: rgb(219, 46, 46);
+.rotate-one {
+    transform: rotate(45deg);
+    margin-top: -8px;
+    transition: 0.3s;
+}
+
+.rotate-two {
+    transform: rotate(-220deg);
+    margin-top: 12px;
+    transition: 0.3s;
+}
+
+.rotate-three {
+    transform: rotate(0deg);
+    transition: 0.3s;
+}
+
+.rotate-four {
+    transform: rotate(0deg);
+    transition: 0.3s;
+}
+
+.main-page {
+    width: 100%;
+    height: 658px;
+    background-image: url("portfolio-images/piano.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    filter: brightness(45%);
+}
+
+.vertical-line {
+    width: 4px;
+    height: 193px;
+    background-color: rgb(255, 207, 51);
+    position: absolute;
+    margin-top: -423px;
+    margin-left: 523.5px;
+}
+
+.main-text {
+    position: absolute;
+    margin-top: -450px;
+    margin-left: 548px;
+    line-height: 40px;
+}
+
+.main-text h2 {
+    color: rgb(255, 207, 51);
+    font-size: 38px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: initial;
+}
+
+.main-text h1 {
     color: white;
-    font-size: 20px;
-    margin-top: 4%;
+    font-size: 44px;
+    font-weight: initial;
+    font-family: 'Open Sans', sans-serif;
 }
 
-section.subscribe button:hover {
-    background-color: rgb(175, 171, 171);
+h1 span {
+    border: 1px solid rgb(255, 255, 255);
+    padding: 2px 7px;
+    font-size: 47px;
+    font-weight: 200;
 }
 
-
-
-@media screen and (max-width: 768px) {
-    
-    section.one {
-        width: 90%;
-        margin-left:5%;
-    }
-
-    section.two {
-        width: 90%;
-        margin-left:5%;
-    }
-
-    section.three {
-        width: 90%;
-        margin-left:5%;
-    }
-
-    section.four {
-        width: 90%;
-        margin-top: 40px;
-        margin-left:5%;    
-    }
-
-    section.five {
-        width: 90%;
-        margin-left:5%;    
-    }
-
-    section.six {
-        width: 90%;
-        margin-left:5%;    
-    }
-
-    section.seven {
-        width: 90%;
-        margin-left:5%;    
-    }
-
-    section.eight {
-        width: 86%;
-        margin-left:5%;    
-    }
-
-    section.nine {
-        width: 90%;
-        margin-left:5%;    
-    }
-
-    section.ten {
-        width: 90%;
-        margin-left:5%;    
-    }
-
-    section.gallery {
-        width: 90%;
-        margin-left:5%;    
-    }
-
-    section.subscribe {
-        width: 90%;
-        margin-left:5%;    
-        margin-top: 40px;      
-    }
+.main-text h3 {
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-weight: initial;
 }
 
-@media screen and (max-width: 480px) {
-        section.eight {
-            width: 82%;
-        }
-
-        footer {
-            display: none;
-        }
+span.portfolio {
+    color: rgb(255, 207, 51);
+    border: 1px solid rgb(255, 207, 51);
+    font-size: 26px;
+    font-weight: initial;
+    letter-spacing: 3px;
+    padding: 10px 20px;
+    cursor: pointer;
 }
 
+.left-background1 {
+    width: 524px;
+    height: 658px;
+    background-image: url("portfolio-images/ds.jpg");
+    position: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    filter: brightness(60%);
+}
 
-.open-window {
-    width: 70%;
-    height: 250px;
-    margin: auto;
+.horizontal-line {
+    width: 380px;
+    height: 10px;
     background-color: rgb(255, 255, 255);
-    margin-left: 15%;
-    margin-top: -110px;
+    position: absolute;
+    margin-top: 587px;
+    margin-left: 60px;
+    opacity: 1;
+}
+
+.secondVertical-line {
+    width: 10px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    height: 460px;
+    margin-left: 60px;
+    margin-top: 130px;
+}
+
+
+#h, #t, #m, #l, #c, #s, #s1 {
+    width: 50px;
+    position: fixed;
+    margin-top: 280px;
+    display: none;
+}
+
+#h {
+    margin-left: 150px;
+    margin-top: 284px;
+}
+
+#t {
+    margin-left: 220px;
+    margin-top: 292px;
+}
+
+#m {
+    margin-left: 290px;
+}
+
+#l {
+    margin-left: 360px;
+}
+
+#c {
+    margin-left: 150px;
+    margin-top: 280px;
+    width: 70px;
+}
+
+#s {
+    margin-left: 215px;
+    margin-top: 280px;
+    width: 110px;
+}
+
+#s1 {
+    margin-left: 300px;
+    margin-top: 280px;
+    width: 110px;
+}
+
+.works, .contact, .about {
+    width: 788px;
+    height: 650px;
+    background-color: rgb(255, 255, 255);
+    float: right;
+}
+
+
+
+.about, .contact {
+    display: none;
+}
+
+.second-footer {
+    width: 100%;
+    height: 57.5px;
+    background-color: rgb(27, 27, 27);
+    padding-top: 13px;
+}
+
+.my-works {
+   background-color: rgb(255, 207, 51);
+   width: 150px;
+   margin-left: 20px;
+   text-align: center;
+   height: 45px;
+   cursor: pointer;
+}
+
+.my-works > h2 {
+    padding: 9px 1px;
+    margin-top: 0;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.contact > h1, .about > h1, .works > h1{
+   margin-left: 40px;
+   font-size: 28px;
+   cursor: pointer;
+   margin-top: 120px;
+}
+
+.about > h2 {
+   margin-left: 40px;
+   font-size: 26px;
+   font-weight: 100;
+}
+
+.about > p {  
+    font-size: 17px;
+    font-weight: 600;
+    margin-left: 40px;
+ }
+
+ span.light-text {
+    font-size: 16px;
+    font-weight: 100;
+ }
+
+.about > h4 {  
+    font-size: 26px;
+ }
+
+ .about > h5 {  
+    font-size: 18px;
+    margin-left: 40px;
+    width: 90%;
+ }
+
+.contact > h4, .about > h4 {
+    padding-top: 20px;
+    margin-left: 40px;
+    line-height: 0;
+}
+
+.about > ul {
+    margin-left: 18px;
+    line-height: 28px;
+}
+
+.contact > .horizontal-line, .about > .horizontal-line, .works > .horizontal-line {
+    width: 55%;
+    margin-left: 43px;
+    height: 3px;
+    background-color: rgb(255, 207, 51);
+    margin-top: -5px;
+}
+
+.second-footer .line {
+    width: 1.5px;
+    height: 50px;
+    background-color: rgb(85, 83, 83);
+    position: absolute;
+    opacity: 0.7;
+    margin-top: -2px;
+}
+
+.squars {
+    width: 150px;
+    height: 150px;
+    border: 2px solid brown;
+    float: left;
+    margin: 5px;
+}
+
+
+.fixed {
+        position: fixed;
+        top:0; 
+}
+
+
+.menu {
+    width: 523.5px;
+    height: 588px;
+    margin-top: 70px;
+    background-color: rgb(0, 0, 0, 0.8);
     position: fixed;
     display: none;
 }
 
-
-.open-window h1 {
-    margin-left: 5%;
-    letter-spacing: 4;
-    
+#myImage {
+    width: 115px;
+    border: 2.5px solid rgb(255, 207, 51);
+    border-radius: 50%;
+    margin-left: 200px;
+    margin-top: 130px;
 }
 
-.open-window p {
-    margin-left: 5%;
+.menu > p {
+   color: white;
+   text-align: center;
 }
 
-.open-window input {
-    margin-left: 5%;
-    width: 90%;
-    height: 30px;
-}
-
-.open-window button {
-    margin-left: 5%;
-    width: 90.5%;
-    padding: 14px;
-    border: none;
-    background-color: rgba(230, 27, 27, 0.774);
+.menu-list {
     color: white;
+    text-align: center;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.7s;
+ }
+
+ .menu-list:hover {
+    font-size: 21px;
+ }
+
+
+#template {
+    width: 320px;
+    height: 190px;
+    margin-left: 40px;
+    background-image: url("portfolio-images/template.png");
+    background-size: 173%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 4px dotted black;
+    margin-top: 10px;
+    float: left;
     cursor: pointer;
 }
 
-.open-window button:hover {
-    background-color: grey;
-    color: black;
-}
-
-.open-window h4 {
-    margin-left: 95%;
+#quiz {
+    width: 320px;
+    height: 190px;
+    background-image: url("portfolio-images/quiz.png");
+    background-size: 173%; 
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 4px dotted black;
+    margin-left: 420px;
+    margin-top: 10px;
     position: absolute;
     cursor: pointer;
-    padding: 5px 10px;
-    margin-top: 1%;
 }
 
-
-.open-window h4:hover {
-    background-color: gray;
-}
-
-
-@media screen and (max-width: 480px) {
-    .open-window {
-        width: 70%;
-        margin-left: 15%;
-        border: 1px solid black;
-        text-align: center;
-    } 
-    
-        .open-window h4 {
-            margin-left: 90%;    
-        }  
-
-        .open-window button {
-            width: 70%;
-            margin-left: 0;
-        }
-        .open-window p {
-            width: 85%;
-            margin-top: -5%;
-        }
-
-        .open-window input {
-            width: 70%;
-            margin-left: 0;
-        }
-}
-
-
-.below-section {
-    width: 100%;
-    height: 165px;
-    background-color: grey;
-    margin-top: 750px;
-}
-
-.below-section button {
-    margin: 40px;
-    border: none;
-    background-color: black;
-    color: white;
-    padding: 10px 25px;
+#game {
+    width: 320px;
+    height: 190px;
+    margin-left: 40px;
+    background-image: url("portfolio-images/game1.png");
+    background-size: 185%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 4px dotted black;
+    margin-top: 250px;
     cursor: pointer;
-    font-size: 1.3vw;
 }
 
-.below-section button:hover {
-    background-color: rgb(209, 205, 205);
-    color: black;  
+#website {
+    width: 320px;
+    height: 190px;
+    margin-left: 420px;
+    margin-top: -198px;
+    background-image: url("portfolio-images/website.png");
+    background-size: 185%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 4px dotted black;
+    cursor: pointer;
+    position: absolute;
+}
+
+#template:hover {
+    width: 330px;
+    height: 195px;
+    margin-left: 35px;
+}
+
+#quiz:hover {
+    width: 330px;
+    height: 195px;
+    margin-left: 415px;
+}
+
+#game:hover {
+    width: 330px;
+    height: 195px;
+    margin-left: 35px;
+}
+
+#website:hover {
+    width: 330px;
+    height: 195px;
+    margin-left: 415px;
+}
+
+
+.one {
+    width: 50px;
+    height: 200px;
+    background-color: blue;
 }
