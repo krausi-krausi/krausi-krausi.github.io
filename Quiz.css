@@ -13,8 +13,7 @@ body {
     padding: 20px;
     display: none;
     position: absolute;
-    width: 500px;
-    height: 200px;
+    width: 38%;
     margin-top: 150px;
     border-radius: 8%;
     color: white;
@@ -31,7 +30,7 @@ body {
     margin: auto;
     margin-top: 10%;
     font-size: 1.3vw;
-    padding: 8px 16px;
+    padding: 1.7% 5%;
     background-color: #66AF33;
     color: white;
     border: none;
@@ -61,8 +60,7 @@ body {
     padding: 20px;
     display: none;
     position: absolute;
-    width: 520px;
-    height: 265px;
+    width: 39.3%;
     margin-top: 150px;
     border-radius: 5%;
   }
@@ -121,26 +119,26 @@ body {
 
 
    button {
-    padding: 8px 40px;
+    padding: 1.7% 8%;
     background-color: white;
     border: none;
-    margin-left: 52px;
+    margin-left: 10%;
     margin-top: 20px;
     cursor: pointer;
   }
 
 
   button.next1, .next2, .next3, .next4, .next5, .next6, .next7, .next8, .next9, .next10 {
-    margin-left: 180px;
-    padding: 8px 35px;
+    margin-left: 35.5%;
+    padding: 1.7% 7%;
     border: none;
     background-color: white;
   }
 
   .refresh1, .refresh2, .refresh3, .refresh4, .refresh5, .refresh6, .refresh7, .refresh8, .refresh9, .refresh10 {
      display: none;
-     margin-left: 160px;
-     padding: 8px 35px;
+     margin-left: 32%;
+     padding: 1.7% 7%;
      border: none;
      background-color: rgb(70, 3, 3);
      cursor: pointer;
@@ -152,8 +150,8 @@ body {
 
   .refresh11 {
      display: none;
-     margin-left: 160px;
-     padding: 8px 35px;
+     margin-left: 32%;
+     padding: 1.7% 7%;
      border: none;
      /*background-color: rgb(70, 3, 3);*/
      background-color: #66AF33;
