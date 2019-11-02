@@ -19,13 +19,19 @@ window.setTimeout(function(){
 
 
     $(window).scroll(function(){
-        if ($(window).scrollTop() > 655) {
+        if ($(window).scrollTop() >= 660) {
           $('.second-footer').addClass('fixed');
+          $('.move-bottom').addClass('top');
+          $('.my-works').addClass('left');
          }
          else {
           $('.second-footer').removeClass('fixed');
+          $('.move-bottom').removeClass('top');
+          $('.my-works').removeClass('left');
          }
       });
+
+
 
       $('.footer-icon').click(function(){
         if ($('#one').css('display') == 'block' && $('#html').css('display') == 'none'){
@@ -56,22 +62,22 @@ $('#first').click(function(){
     $('.works').show();
     $('.contact').hide();
     $('.about').hide();
-    $(window).scrollTop(700);
+    $(window).scrollTop(660);
 });
 
 $('#second').click(function(){
     $('.contact').hide();
     $('.works').hide();
     $('.about').show();
-    $(window).scrollTop(700);
+    $(window).scrollTop(660);
 });
 
 $('#third').click(function(){
     $('.contact').show();
     $('.about').hide();
     $('.works').hide();
-    $(window).scrollTop(700);
-})
+    $(window).scrollTop(660);
+});
       
 $('.css-logo').click(function(){
     $(window).scrollTop(0);
@@ -89,6 +95,6 @@ $('#template').click(function(){
     window.location.href='My Game.html';
  });
 
-$('#website').click(function(){
+ $('#website').click(function(){
     window.location.href='website.html';
  });
