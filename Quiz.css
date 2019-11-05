@@ -222,6 +222,11 @@ body {
       font-size: 2.5vw;
     }
 
+      .countDown-timer-1, .countDown-timer-2, .countDown-timer-3, .countDown-timer-4, .countDown-timer-5, .countDown-timer-6, .countDown-timer-7, .countDown-timer-8, .countDown-timer-9, .countDown-timer-10 {
+      margin-top: -18px;
+  }
+      
+     
     @media only screen and (max-width: 480px) { 
        body {
          background-image: url("quiz-images/phone-background.jpg");
