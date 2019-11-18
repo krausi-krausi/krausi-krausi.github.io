@@ -398,60 +398,34 @@ span.portfolio {
 
 
 #template {
-    width: 45%;
-    height: 200px;
-    margin-left: 4%;
-    background-image: url("portfolio-images/template.png");
-    background-size: 200%; 
-    background-position: center;
-    background-repeat: no-repeat;
-    border: 4px dotted black;
-    margin-top: 10px;
-    float: left;
-    cursor: pointer;
-}
+        width: 80%;
+        margin-left: -66.5%;
+        height: 200px;
+    }
 
-#quiz {
-    width: 45%;
-    height: 200px;
-    margin-left: 1%;
-    background-image: url("portfolio-images/quiz.png");
-    background-size: 173%; 
-    background-repeat: no-repeat;
-    background-position: center;
-    border: 4px dotted black;
-    margin-top: 10px;
-    cursor: pointer;
-    float: right;
-}
+    #main {
+        width: 75%;
+        margin-left: -66.5%;
+        height: 200px;
+    }
 
-#game {
-    width: 45%;
-    height: 200px;
-    margin-left: 4%;
-    background-image: url("portfolio-images/game1.png");
-    background-size: 250%;
-    background-position: center;
-    
-    background-repeat: no-repeat;
-    border: 4px dotted black;
-    margin-top: 40px;
-    cursor: pointer;
-    float: left;
-}
+    #quiz {
+        width: 80%;
+        margin-left: -66.5%;
+        height: 200px;
+    }
 
-#website {
-    width: 45%;
-    height: 200px;
-    margin-top: 40px;
-    background-image: url("portfolio-images/website.png");
-    background-size: 185%; 
-    background-position: center;
-    background-repeat: no-repeat;
-    border: 4px dotted black;
-    cursor: pointer;
-    float: right;
-}
+    #game {
+        width: 80%;
+        margin-left: -66.5%;
+        height: 200px;
+    }
+
+    #website {
+        width: 75%;
+        margin-top: -208px;
+        height: 200px;
+    }
 
 
 @media only screen and (max-width: 900px) {
