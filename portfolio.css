@@ -3,9 +3,8 @@ html {
 }
 
 body {
-    margin: 20px;
-    padding: 20px;
-    background-color: red;
+    margin: 0;
+    padding: 0;
 }
 
 .footer {
