@@ -398,6 +398,91 @@ span.portfolio {
 
 
 #template {
+    width: 45%;
+    height: 200px;
+    margin-left: 4%;
+    background-image: url("portfolio-images/template.png");
+    background-size: 200%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 4px dotted black;
+    margin-top: 10px;
+    float: left;
+    cursor: pointer;
+}
+
+#main {
+    width: 45%;
+    height: 200px;
+    margin-left: 1%;
+    background-image: url("portfolio-images/main.png");
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 4px dotted black;
+    margin-top: 10px;
+    cursor: pointer;
+    float: right;
+}
+
+#quiz {
+    width: 45%;
+    height: 200px;
+    margin-left: 4%;
+    background-image: url("portfolio-images/quiz.png");
+    background-size: 173%; 
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 4px dotted black;
+    margin-top: 260px;
+    cursor: pointer;
+}
+
+
+#game {
+    width: 45%;
+    height: 200px;
+    margin-left: 4%;
+    background-image: url("portfolio-images/game1.png");
+    background-size: 250%;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 4px dotted black;
+    margin-top: 40px;
+    cursor: pointer;
+    float: left;
+}
+
+#website {
+    width: 45%;
+    height: 200px;
+    margin-top: -208px;
+    background-image: url("portfolio-images/website.png");
+    background-size: 185%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 4px dotted black;
+    cursor: pointer;
+    float: right;
+}
+
+
+@media only screen and (max-width: 900px) {
+   .footer {
+       width: 100%;
+   }
+
+   .left-background1 {
+       display: none;
+   }
+   .second-footer {
+       display: none;
+   }
+   #h, #t, #m, #l, #c, #s, #s1 {
+       width: 0.1%;
+       margin: 0;
+   }
+    #template {
         width: 80%;
         margin-left: -66.5%;
         height: 200px;
@@ -424,47 +509,6 @@ span.portfolio {
     #website {
         width: 75%;
         margin-top: -208px;
-        height: 200px;
-    }
-
-
-@media only screen and (max-width: 900px) {
-   .footer {
-       width: 100%;
-   }
-
-   .left-background1 {
-       display: none;
-   }
-   .second-footer {
-       display: none;
-   }
-   #h, #t, #m, #l, #c, #s, #s1 {
-       width: 0.1%;
-       margin: 0;
-   }
-    #template {
-        width: 80%;
-        margin-left: -66.5%;
-        height: 200px;
-    }
-
-    #quiz {
-        width: 75%;
-        margin-left: -66.5%;
-        height: 200px;
-    }
-
-    #game {
-        width: 80%;
-        margin-left: -81.5%;
-        margin-top: 280px;
-        height: 200px;
-    }
-
-    #website {
-        width: 75%;
-        margin-top: 63px;
         height: 200px;
     }
 
