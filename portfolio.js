@@ -87,6 +87,10 @@ $('#template').click(function(){
     window.location.href='responsive template.html';
  });
 
+$('#main').click(function(){
+    window.location.href='main.html';
+ });
+
  $('#quiz').click(function(){
     window.location.href='Quiz.html';
  });
