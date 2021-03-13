@@ -405,7 +405,6 @@ span.portfolio {
     background-size: 200%; 
     background-position: center;
     background-repeat: no-repeat;
-    border: 4px dotted black;
     margin-top: 10px;
     float: left;
     cursor: pointer;
@@ -419,7 +418,6 @@ span.portfolio {
     background-size: cover; 
     background-repeat: no-repeat;
     background-position: center;
-    border: 4px dotted black;
     margin-top: 10px;
     cursor: pointer;
     float: right;
@@ -433,7 +431,6 @@ span.portfolio {
     background-size: 173%; 
     background-repeat: no-repeat;
     background-position: center;
-    border: 4px dotted black;
     margin-top: 260px;
     cursor: pointer;
 }
@@ -447,7 +444,6 @@ span.portfolio {
     background-size: 250%;
     background-position: center;
     background-repeat: no-repeat;
-    border: 4px dotted black;
     margin-top: 40px;
     cursor: pointer;
     float: left;
@@ -458,10 +454,9 @@ span.portfolio {
     height: 200px;
     margin-top: -208px;
     background-image: url("portfolio-images/website.png");
-    background-size: 185%; 
+    background-size: cover; 
     background-position: center;
     background-repeat: no-repeat;
-    border: 4px dotted black;
     cursor: pointer;
     float: right;
 }
